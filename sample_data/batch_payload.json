@@ -1,0 +1,153 @@
+[
+  {
+    "record_id": "R-1001",
+    "patient_id": "P-1001",
+    "patient_name": "Test Patient Alice",
+    "date_of_birth": "1958-04-12",
+    "ssn_last4": "1234",
+    "contact_phone": "555-0001",
+    "facility": "Lakeview Main",
+    "timestamp": "2024-04-01T14:22:00Z",
+    "event_type": "REGISTRATION",
+    "diagnosis_codes": []
+  },
+  {
+    "record_id": "R-1002",
+    "patient_id": "P-1001",
+    "patient_name": "Test Patient Alice",
+    "date_of_birth": "1958-04-12",
+    "facility": "Lakeview Main",
+    "timestamp": "2024-04-01T14:35:00Z",
+    "event_type": "TRIAGE",
+    "acuity_level": 2,
+    "chief_complaint": "chest pain",
+    "diagnosis_codes": []
+  },
+  {
+    "record_id": "R-1004",
+    "patient_id": "P-1001",
+    "patient_name": "Test Patient Alice",
+    "date_of_birth": "1958-04-12",
+    "facility": "Lakeview Main",
+    "timestamp": "2024-04-01T18:40:00Z",
+    "event_type": "DISPOSITION",
+    "disposition": "ADMITTED",
+    "chief_complaint": "chest pain",
+    "diagnosis_codes": ["I21.0"]
+  },
+  {
+    "record_id": "R-2001",
+    "patient_id": "P-1002",
+    "patient_name": "Test Patient Bob",
+    "date_of_birth": "1985-11-03",
+    "facility": "Lakeview West",
+    "timestamp": "2024-04-01T09:12:00Z",
+    "event_type": "REGISTRATION",
+    "diagnosis_codes": []
+  },
+  {
+    "record_id": "R-2002",
+    "patient_id": "P-1002",
+    "patient_name": "Test Patient Bob",
+    "date_of_birth": "1985-11-03",
+    "facility": "Lakeview West",
+    "timestamp": "2024-04-01T09:18:00Z",
+    "event_type": "TRIAGE",
+    "acuity_level": 4,
+    "chief_complaint": "laceration right forearm",
+    "diagnosis_codes": []
+  },
+  {
+    "record_id": "R-2002",
+    "patient_id": "P-1002",
+    "patient_name": "Test Patient Bob",
+    "date_of_birth": "1985-11-03",
+    "facility": "Lakeview West",
+    "timestamp": "2024-04-01T09:18:00Z",
+    "event_type": "TRIAGE",
+    "acuity_level": 4,
+    "chief_complaint": "laceration right forearm",
+    "diagnosis_codes": []
+  },
+  {
+    "record_id": "R-3001",
+    "patient_id": "P-1003",
+    "patient_name": "Test Patient Carol",
+    "date_of_birth": "1972-08-19",
+    "facility": "Lakeview North",
+    "timestamp": "2024-04-02T03:10:00Z",
+    "event_type": "REGISTRATION",
+    "diagnosis_codes": []
+  },
+  {
+    "record_id": "R-3002",
+    "patient_id": "P-1003",
+    "patient_name": "Test Patient Carol",
+    "date_of_birth": "1972-08-19",
+    "facility": "Lakeview North",
+    "timestamp": "2024-04-02T03:25:00Z",
+    "event_type": "TRIAGE",
+    "acuity_level": 4,
+    "chief_complaint": "abdominal pain",
+    "diagnosis_codes": []
+  },
+  {
+    "record_id": "R-3002",
+    "patient_id": "P-1003",
+    "patient_name": "Test Patient Carol",
+    "date_of_birth": "1972-08-19",
+    "facility": "Lakeview North",
+    "timestamp": "2024-04-02T03:25:00Z",
+    "event_type": "TRIAGE",
+    "acuity_level": 3,
+    "chief_complaint": "severe abdominal pain",
+    "diagnosis_codes": []
+  },
+  {
+    "record_id": "R-4001",
+    "patient_id": "P-1004",
+    "patient_name": "Test Patient Dan",
+    "date_of_birth": "1990-06-15",
+    "facility": "Lakeview Main",
+    "timestamp": "2024-04-01T23:55:00Z",
+    "event_type": "REGISTRATION",
+    "diagnosis_codes": []
+  },
+  {
+    "record_id": "R-4002",
+    "patient_id": "P-1004",
+    "patient_name": "Test Patient Dan",
+    "date_of_birth": "1990-06-15",
+    "facility": "Lakeview Main",
+    "timestamp": "2024-04-02T00:05:00Z",
+    "event_type": "TRIAGE",
+    "acuity_level": 2,
+    "chief_complaint": "shortness of breath",
+    "diagnosis_codes": []
+  },
+  {
+    "record_id": "R-5002",
+    "patient_id": "P-1005",
+    "patient_name": "Test Patient Eve",
+    "date_of_birth": "1990-06-15",
+    "facility": "Lakeview Main",
+    "timestamp": "2024-04-01T21:30:00Z",
+    "event_type": "DISPOSITION",
+    "disposition": "LEFT_WITHOUT_TREATMENT",
+    "chief_complaint": "sore throat",
+    "diagnosis_codes": []
+  },
+  {
+    "record_id": "R-9001",
+    "patient_id": "P-1007",
+    "patient_name": null,
+    "date_of_birth": null,
+    "ssn_last4": null,
+    "contact_phone": null,
+    "facility": "Lakeview South",
+    "timestamp": "2024-04-03T12:00:00Z",
+    "event_type": "REGISTRATION",
+    "chief_complaint": "unknown — unresponsive patient",
+    "diagnosis_codes": []
+  }
+]

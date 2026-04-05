@@ -1,0 +1,12 @@
+# Runtime dependencies are intentionally mirrored from pyproject.toml
+# so both Docker builds and local quick-starts stay straightforward.
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+SQLAlchemy==2.0.35
+psycopg[binary]==3.2.13
+pydantic==2.9.2
+pydantic-settings==2.5.2
+httpx==0.27.2
+alembic==1.13.2
+pytest==8.3.3
+ruff==0.6.9
